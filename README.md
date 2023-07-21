@@ -16,7 +16,13 @@ pip install pandas
 pip install rdkit
 
 ## How to Use
+You can use it as any other python script: 
+    python script_name.py
 
-python script_name.py
+You can also make the script executable. In you terminal, navigate to the directory containing your 'csv_to_sdf.py' script and run 
+`chmod +x csv_to_sdf.py`
+then move the script to a directory that's in the system's PATH variable or add its location to the PATH variable so you can call the script from any location in the terminal. 
+Then you can call the Python function from the command line as follows: 
+`csv_to_sdf.py your_csv_file.csv`
 
 

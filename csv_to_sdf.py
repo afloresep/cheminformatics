@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+import argparse
 import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import AllChem
@@ -81,6 +84,8 @@ def sdf_from_csv(csv_file):
 
 if __name__ == "__main__":
     # Call the function to convert SMILES to .sdf files
+    parser = argparse.ArgumentParser(description="Convert CSV to SDF")
+    parser.add_argument("csv_filename", help="The name of the CSV file to convert")
+    args = parser.parse_args()
     sdf_from_csv(df)
-
 
