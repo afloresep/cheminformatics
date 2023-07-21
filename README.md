@@ -15,9 +15,9 @@ To use these scripts, you need to have Python and the required libraries install
 pip install pandas
 pip install rdkit
 
-## How to Use
+## How to Use 
 You can use it as any other python script: 
-    python script_name.py
+    python csv_to_sdf.py
 
 You can also make the script executable. In you terminal, navigate to the directory containing your 'csv_to_sdf.py' script and run 
 `chmod +x csv_to_sdf.py`
